@@ -1,0 +1,74 @@
+.assa { font-family: "Assa font"sans-serif; font-size: 4.2em; }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h1{
+  font-family: "assa fonts", sans-serif;
+  font-size: 4em;
+  line-height: 1.5em;
+}
+.container {
+  font-family: "assa font",sans-serif;
+  position: relative;
+  text-align: center;
+  color: #FFC200;
+}
+
+.list li{
+  list-style-image: url('/images/14.png');
+  font-size: 2.5em;
+  font-family: "Myriad Variable Concept", sans-serif;
+  font-weight: bold;
+  line-height: 2.8em
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 200px 400px;
+  font-size: 30px;
+}
+.container2 h1{
+  font-family: "assa fonts", sans-serif;
+  font-size: 100px;
+}
+.block video{
+  padding: 40px 0px 54px 50px;
+}
+.block p{
+  padding:50px 50px 31px 50px;
+}
+.block img{
+  padding:23px 20px 44px 0px;
+}
+.block2 img{
+  padding:20px 20px 20px 50px;
+}
+.block2 p{
+  padding: 30px 50px 27px 20px;
+}
+.block{
+  float: left;
+  width: 50%;
+  background-color: #FFC200;
+}
+.block2{
+  float: left;
+  width: 50%;
+  background-color: #FFC200;
+}
+.container2{
+  width: 80%;
+  height: 100%;
+  margin:auto;
+}
